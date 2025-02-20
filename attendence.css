@@ -95,7 +95,7 @@ hgroup h1{
     background-color: red;
 }
 
-.buttons button{
+.buttons button,.stopScan{
     padding: .4rem .6rem;
     font-family: "poppins", serif;
     text-transform: capitalize;
@@ -105,6 +105,20 @@ hgroup h1{
 
 }
 
+.stopScan{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+    z-index: 3;
+    border-radius: 50%;
+    color: var(--color-palet-Bg-);
+    background-color:transparent;
+    border: 1px solid white;
+
+}
 /* *** qr scanned elemnt ****? */
 
 #reader__scan_region{
