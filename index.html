@@ -12,7 +12,7 @@
     <div class="attendence-marking-field">
         
         <div class="attendence-content">
-            <div id="reader"></div>
+            <div id="reader" style="display: none;"></div>
             <div class="showed-content">
                 <div class="userDetails">
                     <span class="image"></span>
@@ -27,7 +27,7 @@
                 <div class="attendance-menupulation-field">
                     <div class="box" id="morning-status">
                         <h1>
-                            M
+                            M <span id="M-sndStatus"> status: pending</span>
                         </h1>
                         <div class="buttons">
                             <button class="markPresent" id="M-Present">mark me present</button>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="box" id="evening-status">
                         <h1>
-                            Evening
+                            E <span id="E-sndStatus"> status: pending</span>
                         </h1>
                         <div class="buttons">
                             <button class="markPresent" id="E-Present">mark me present</button>
@@ -45,7 +45,18 @@
                     </div>
                 </div>
             </div>
+            <div class="instrucion-field">
+                <ul class="field-group">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+    
         </div>
+
 
     </div>
     <script src="./scanqr.js"></script>

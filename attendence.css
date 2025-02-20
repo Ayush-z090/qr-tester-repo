@@ -119,6 +119,16 @@ hgroup h1{
     border: 1px solid white;
 
 }
+
+.box h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box >h1 >span{
+    font-size: 1rem;
+}
 /* *** qr scanned elemnt ****? */
 
 #reader__scan_region{
@@ -152,4 +162,9 @@ video,img{
     width: 6rem;
     border: 1px solid;
 
+}
+
+#reader div:last-child{
+    left: 0;
+    filter: drop-shadow(10px);
 }
